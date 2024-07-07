@@ -1,10 +1,10 @@
 import jwt from 'jsonwebtoken'; 
 
-const generateTokenAndSetCookie = (UserId, res) => {
-    const token = jwt.sign({UserId}, process.env.JWT_SECRET, {
+const generateTokenAndSetCookie = (userId, res) => {
+    const token = jwt.sign({ userId }, process.env.JWT_SECRET, {
         expiresIn: "15d"
     });
-    // Created a cookie named jwt and sign method and set the token in it , send a payload of UserId and set the expiry time of 15 days
+    // Created a cookie named jwt and sign method and set the token in it , send a payload of userId and set the expiry time of 15 days
 
     res.cookie("jwt", token, {
        //maxAge the cookie live
