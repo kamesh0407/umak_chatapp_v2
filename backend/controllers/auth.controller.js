@@ -57,9 +57,35 @@ export const signup = async (req, res) => {
        res.status(500).json({error:"Internal Server Error"});
    }
 }
+//await only allowed if the function is async
+export const login = async (req, res) => {
+   try {
+    //get username and password from the user
+    const {username,password} = req.body;
+    //check if the user exists
+    const user = await User.findOne({username});
+    //if no user, return error with status 400
+    const isPasswordCorrect = await bcrypt.compare(password,user?.password || "");
+    //if password is incorrect, return error with status 400
+    if(!user || !isPasswordCorrect){
+        return res.status(400).json({error:"Invalid username or password"});
 
-export const login = (req, res) => {
-    console.log("loginUser");
+    }
+    //if user exists and password is correct, generate JWT token, function calls to generateToken.js file
+    generateTokenAndSetCookie(user._id,res);
+
+    //send user data in response
+    res.status(200).json({
+        _id: user._id,
+        fullName: user.fullName,
+        username: user.username,
+        profilePic: user.profilePic
+    });
+
+   } catch (error) {
+    console.log("Error in login controller: ",error.message);
+       res.status(500).json({error:"Internal Server Error"});
+   }
 }   
 
 export const logout = (req, res) => {
