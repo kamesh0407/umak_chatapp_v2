@@ -1,6 +1,6 @@
 
 import './App.css'
-import SignUp from './pages/signup/SignUp';
+
 import Home from './pages/home/Home';
 
 function App() {
