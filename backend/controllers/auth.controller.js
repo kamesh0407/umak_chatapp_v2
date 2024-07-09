@@ -37,6 +37,8 @@ export const signup = async (req, res) => {
             profilePic: gender === "male" ? boyProfilePic : girlProfilePic
         });
 
+        //if new user created successfully , we will return the JSON object  , Object : (i.e ID username and profile pic of the user)
+
        if(newUser){
         //Generate JWT token
         generateTokenAndSetCookie(newUser._id,res);
