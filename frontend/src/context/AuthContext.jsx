@@ -10,7 +10,7 @@ export const useAuthContext = () => {
 //AuthContextProvider will wrap our application and provide the authUser and setAuthUser to all components by using the hook useAuthContext
 export const AuthContextProvider = ({ children }) => {
     const [authUser,setAuthUser] = useState(JSON.parse(localStorage.getItem('chat-user')) || null)
-
+//It is a GLOBAL Context , which can be used throughout the entire application
     return (
         <AuthContext.Provider value={{authUser,setAuthUser}} >
             {children}
