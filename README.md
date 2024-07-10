@@ -137,3 +137,8 @@ npx tailwindcss init -p</code></pre>
 <ul>
   <li><strong>Real-Time Communication</strong>: Instant message delivery and reflection in the DB.</li>
 </ul>
+
+<div align="center">
+  <h2>⭐️ Star the Repository ⭐️</h2>
+  <p>If you find this project interesting or useful, please star it on GitHub to show your support!</p>
+</div>
