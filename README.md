@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🌟 Umak Chatapp 🌟</h1>
+  <h1> 🌟 Umak Chatapp 🌟</h1>
 </div>
 <p>Welcome to <strong>Umak Chatapp</strong>! This project showcases a robust and efficient chat application built using the MERN stack. You can check out the live demo here <a href="https://umak-chatapp.onrender.com/"><strong>🔗 <em><span style="color: #FF5733;">Umak Chatapp</span></em> 🚀</strong></a>!</p>
 
@@ -108,7 +108,7 @@ npx tailwindcss init -p</code></pre>
 
 <h3>Additional Libraries:</h3>
 <ul>
-  <li><strong>Daisy UI</strong>: Component library for Tailwind CSS.</li>
+  <li><strong>Daisy UI</strong>: Component library for Tailwind CSS<a href="https://daisyui.com/"> Daisy UI</a>.</li>
   <li><strong>React Icons</strong>: <a href="https://react-icons.github.io/react-icons/">React Icons</a></li>
   <li><strong>React Hot Toast</strong>: <a href="https://react-hot-toast.com/">React Hot Toast</a> for error messages.</li>
   <li><strong>Zustand</strong>: <a href="https://zustand-demo.pmnd.rs/">Zustand</a> for global state management.</li>
