@@ -155,6 +155,14 @@ npx tailwindcss init -p</code></pre>
   <li><strong>Real-Time Communication</strong>: Instant message delivery and reflection in the DB.</li>
 </ul>
 
+<h2>Using JWT – JSON Web Tokens</h2>
+<p><strong>JSON Web Tokens (JWTs)</strong> are a standardized way to securely send data between two parties for <strong>authorization</strong>.</p>
+
+<p>If we use a session ID as a cookie, the user ID is stored on the server. In large organizations that use multiple servers, if a user switches to another server within the same organization, they would need to log in again to access their data because the session ID is stored on the initial server.</p>
+
+<p>Instead, if we use JWT tokens, the user ID is stored as a cookie on the client side. This allows the user to access any number of servers without needing to log in again.</p>
+
+
 ## License
 [MIT License](LICENSE)
 
