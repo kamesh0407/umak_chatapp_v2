@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🌟 Umak Chatapp 🌟</h1>
+  <h1> 🌟 Umak Chatapp 🌟</h1>
 </div>
 <p>Welcome to <strong>Umak Chatapp</strong>! This project showcases a robust and efficient chat application built using the MERN stack. You can check out the live demo here <a href="https://umak-chatapp.onrender.com/"><strong>🔗 <em><span style="color: #FF5733;">Umak Chatapp</span></em> 🚀</strong></a>!</p>
 
@@ -26,6 +26,29 @@
   <li><strong>Render</strong>: Deployment platform.</li>
 </ul>
 
+<h2>📸 Screenshots & 🎥 Demo</h2>
+<p>Below are some screenshots and a video demonstration of the Umak Chatapp in action:</p>
+
+<h3>Screenshots</h3>
+<p>
+  <img src="https://github.com/kamesh0407/umak_chatapp_v2/blob/main/project%20Assets/login_page.png" alt="Login page" width="600"><br>
+  <em>Login page</em>
+</p>
+<p>
+  <img src="https://github.com/kamesh0407/umak_chatapp_v2/blob/main/project%20Assets/home_pagepng.png" alt="Home page" width="600"><br>
+  <em>Home page</em>
+</p>
+
+<h3>Video Demonstration</h3>
+<p>Check out this video demonstration to see the app in action:</p>
+<p>
+  
+
+https://github.com/kamesh0407/umak_chatapp_v2/assets/108885723/fcc9486e-c0c9-4979-a14a-283f21c18ff5
+
+
+</p>
+
 <h2>🚀 Features</h2>
 <ul>
   <li><strong>Authentication & Authorization</strong>: Secure login system using JSON Web Tokens.</li>
@@ -34,6 +57,7 @@
   <li><strong>API Testing</strong>: Using Postman for reliable API testing.</li>
   <li><strong>Middleware</strong>: Efficient handling of authorization.</li>
 </ul>
+
 
 <h2>📦 Installation</h2>
 
@@ -84,7 +108,7 @@ npx tailwindcss init -p</code></pre>
 
 <h3>Additional Libraries:</h3>
 <ul>
-  <li><strong>Daisy UI</strong>: Component library for Tailwind CSS.</li>
+  <li><strong>Daisy UI</strong>: Component library for Tailwind CSS<a href="https://daisyui.com/"> Daisy UI</a>.</li>
   <li><strong>React Icons</strong>: <a href="https://react-icons.github.io/react-icons/">React Icons</a></li>
   <li><strong>React Hot Toast</strong>: <a href="https://react-hot-toast.com/">React Hot Toast</a> for error messages.</li>
   <li><strong>Zustand</strong>: <a href="https://zustand-demo.pmnd.rs/">Zustand</a> for global state management.</li>
