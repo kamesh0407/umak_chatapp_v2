@@ -13,6 +13,11 @@ const io = new Server(server,{
     }
 });
 
+
+export const getReceiverSocketId = (receiverId) => {
+    return userSocketMap[receiverId];
+}
+
 const userSocketMap = {}; //{userId: socketId} userId will be the key, socketId will be the value
 
  
