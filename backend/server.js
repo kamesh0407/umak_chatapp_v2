@@ -10,8 +10,8 @@ import userRoutes from "./routes/user.routes.js";
 
 //this is our database import connection, used to connect to the database
 import connectToMongoDB from "./db/connectToMongoDB.js";
+import { app } from "./socket/socket.js";
 
-const app = express();
 const PORT =  process.env.PORT || 5000;
 
 
