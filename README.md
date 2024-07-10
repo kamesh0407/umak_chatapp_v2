@@ -3,7 +3,8 @@
 </div>
 <p>Welcome to <strong>Umak Chatapp</strong>! This project showcases a robust and efficient chat application built using the MERN stack. 
   <br/>
-<b>The website is live</b>, so go and have some conversations at <a href="https://umak-chatapp.onrender.com/"><strong>🔗 <em><span style="color: #FF5733;">Umak Chatapp</span></em> 🚀</strong></a>!</p>
+<b>The website is live</b>, so go and have some conversations at <a href="https://umak-chatapp.onrender.com/"><strong>🔗 <em><span style="color: #FF5733;">Umak Chatapp</span></em> 🚀</strong></a>!<br/>
+Please, Use Desktop Site to have a wonderful UI experience.</p>
 
 <h2>Project Description</h2>
 <p><strong>Umak Chatapp</strong> is a modern chat application designed to provide seamless, real-time communication. Here's how you can get started and make the most of its features:</p>
