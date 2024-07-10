@@ -155,6 +155,9 @@ npx tailwindcss init -p</code></pre>
   <li><strong>Real-Time Communication</strong>: Instant message delivery and reflection in the DB.</li>
 </ul>
 
+## License
+[MIT License](LICENSE)
+
 <div align="center">
   <h2>⭐️ Star the Repository ⭐️</h2>
   <p>If you find this project interesting or useful, please star it on GitHub to show your support!</p>
