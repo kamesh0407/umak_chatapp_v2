@@ -3,6 +3,20 @@
 </div>
 <p>Welcome to <strong>Umak Chatapp</strong>! This project showcases a robust and efficient chat application built using the MERN stack. You can check out the live demo here <a href="https://umak-chatapp.onrender.com/"><strong>🔗 <em><span style="color: #FF5733;">Umak Chatapp</span></em> 🚀</strong></a>!</p>
 
+<h2>Project Description</h2>
+<p><strong>Umak Chatapp</strong> is a modern chat application designed to provide seamless, real-time communication. Here's how you can get started and make the most of its features:</p>
+
+<ol>
+  <li><strong>Sign Up & Log In</strong>: Create an account using a unique username and password to access the app.</li>
+  <li><strong>Friend Search</strong>: Easily find and connect with friends by searching for their usernames.</li>
+  <li><strong>Online Status</strong>: See when your friends are online, ensuring you can connect with them immediately.</li>
+  <li><strong>Real-Time Conversations</strong>: Enjoy real-time messaging with friends, making your chats instant and interactive.</li>
+  <li><strong>Start Chatting</strong>: Begin your conversations and stay connected with your friends effortlessly.</li>
+</ol>
+
+<p>Explore Umak Chatapp and experience a new level of real-time communication!</p>
+
+
 <h2>📅 Project Duration</h2>
 <p><strong>06/07/2024 - 10/07/2024</strong></p>
 
