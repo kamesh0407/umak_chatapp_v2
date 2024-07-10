@@ -10,7 +10,7 @@ import userRoutes from "./routes/user.routes.js";
 
 //this is our database import connection, used to connect to the database
 import connectToMongoDB from "./db/connectToMongoDB.js";
-import { app } from "./socket/socket.js";
+import { app, server } from "./socket/socket.js";
 
 const PORT =  process.env.PORT || 5000;
 
@@ -31,7 +31,7 @@ app.use("/api/users",userRoutes);
 
 
 
-app.listen(PORT, () => {
+server.listen(PORT, () => {
     connectToMongoDB();
     console.log(`Server running on port ${PORT}`)
 });
