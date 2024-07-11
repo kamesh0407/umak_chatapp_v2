@@ -34,12 +34,13 @@ Please, Use Desktop Site to have a wonderful UI experience.</p>
 <h3>Tech Stack Details</h3>
 <ul>
   <li><strong>MongoDB</strong>: Database to store user data.</li>
+  <li><strong>Express</strong>:With Express, you can easily handle routes, requests, and responses, which makes the process of creating robust and scalable applications much easier.</li>
   <li><strong>ReactJS</strong>: Front end hooks (Login page, signup page).</li>
   <li><strong>Tailwind CSS</strong>: CSS framework for modern web design without leaving HTML.</li>
   <li><strong>Daisy UI</strong>: Component library for Tailwind CSS.</li>
   <li><strong>Socket.IO</strong>: Real-time communication.</li>
   <li><strong>JWT (JSON Web Tokens)</strong>: Authentication and authorization.</li>
-  <li><strong>Postman</strong>: API testing.</li>
+  <li><strong>Postman</strong>: API testing-Postman is a software application that enables you to test and interact with APIs through a user-friendly interface. You can use Postman to send requests to any API endpoint, and view the responses in various formats.</li>
   <li><strong>Render</strong>: Deployment platform.</li>
 </ul>
 
