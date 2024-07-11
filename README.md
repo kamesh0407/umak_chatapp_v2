@@ -1,7 +1,24 @@
 <div align="center">
   <h1> 🌟 Umak Chatapp 🌟</h1>
 </div>
-<p>Welcome to <strong>Umak Chatapp</strong>! This project showcases a robust and efficient chat application built using the MERN stack. You can check out the live demo here <a href="https://umak-chatapp.onrender.com/"><strong>🔗 <em><span style="color: #FF5733;">Umak Chatapp</span></em> 🚀</strong></a>!</p>
+<p>Welcome to <strong>Umak Chatapp</strong>! This project showcases a robust and efficient chat application built using the MERN stack. 
+  <br/>
+<b>The website is live</b>, so go and have some conversations at <a href="https://umak-chatapp.onrender.com/"><strong>🔗 <em><span style="color: #FF5733;">Umak Chatapp</span></em> 🚀</strong></a>!<br/>
+Please, Use Desktop Site to have a wonderful UI experience.</p>
+
+<h2>Project Description</h2>
+<p><strong>Umak Chatapp</strong> is a modern chat application designed to provide seamless, real-time communication. Here's how you can get started and make the most of its features:</p>
+
+<ol>
+  <li><strong>Sign Up & Log In</strong>: Create an account using a unique username and password to access the app.</li>
+  <li><strong>Friend Search</strong>: Easily find and connect with friends by searching for their usernames.</li>
+  <li><strong>Online Status</strong>: See when your friends are online, ensuring you can connect with them immediately.</li>
+  <li><strong>Real-Time Conversations</strong>: Enjoy real-time messaging with friends, making your chats instant and interactive.</li>
+  <li><strong>Start Chatting</strong>: Begin your conversations and stay connected with your friends effortlessly.</li>
+</ol>
+
+<p>Explore Umak Chatapp and experience a new level of real-time communication!</p>
+
 
 <h2>📅 Project Duration</h2>
 <p><strong>06/07/2024 - 10/07/2024</strong></p>
@@ -137,3 +154,19 @@ npx tailwindcss init -p</code></pre>
 <ul>
   <li><strong>Real-Time Communication</strong>: Instant message delivery and reflection in the DB.</li>
 </ul>
+
+<h2>Using JWT – JSON Web Tokens</h2>
+<p><strong>JSON Web Tokens (JWTs)</strong> are a standardized way to securely send data between two parties for <strong>authorization</strong>.</p>
+
+<p>If we use a session ID as a cookie, the user ID is stored on the server. In large organizations that use multiple servers, if a user switches to another server within the same organization, they would need to log in again to access their data because the session ID is stored on the initial server.</p>
+
+<p>Instead, if we use JWT tokens, the user ID is stored as a cookie on the client side. This allows the user to access any number of servers without needing to log in again.</p>
+
+
+## License
+[MIT License](LICENSE)
+
+<div align="center">
+  <h2>⭐️ Star the Repository ⭐️</h2>
+  <p>If you find this project interesting or useful, please star it on GitHub to show your support!</p>
+</div>
