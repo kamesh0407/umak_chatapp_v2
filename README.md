@@ -2,6 +2,7 @@
   <h1> 🌟 Umak Chatapp 🌟</h1>
   <img src="https://github.com/kamesh0407/umak_chatapp_v2/blob/main/project%20Assets/thumbnail%20(2).png" alt="Umak Chatapp Thumbnail" height=350px width=auto>
 </div>
+<br/>
 <p>Welcome to <strong>Umak Chatapp</strong>! This project showcases a robust and efficient chat application built using the MERN stack. 
   <br/>
 <b>The website is live</b>, so go and have some conversations at <a href="https://umak-chatapp.onrender.com/"><strong>🔗 <em><span style="color: #FF5733;">Umak Chatapp</span></em> 🚀</strong></a>!<br/>
